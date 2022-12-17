@@ -1,0 +1,43 @@
+* {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  background-color: rgb(50, 159, 205);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  min-height: 250px;
+  height: auto;
+  width: 450px;
+  background-color: rgb(50, 44, 44);
+  box-shadow: 20px 20px 40px rgba(97, 63, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  border-radius: 15px;
+}
+.container p{
+  margin: 0 0 20px 0;
+}
+#emoticon {
+  font-size: 100px;
+  margin: 0 0 20px 0;
+}
+button {
+  background-color: rgb(50, 159, 205);
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+  text-shadow: 2px 2px 2px rgb(91, 90, 90);
+  cursor: pointer;
+}
