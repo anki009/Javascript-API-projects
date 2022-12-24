@@ -7,13 +7,7 @@ let getUser = () => {
   fetch(url)
     .then((resp) => resp.json())
     .then((data) => {
-      console.log(data);
-      console.log(data.first_name);
-      console.log(data.last_name);
-      console.log(data.avatar);
-      console.log(data.employment.title);
-      console.log(data.address.city);
-
+      
       imgContainer.innerHTML = `
       <img src=${data.avatar}>`;
       details.innerHTML = `
