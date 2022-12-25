@@ -7,7 +7,6 @@ let getUser = () => {
   fetch(url)
     .then((resp) => resp.json())
     .then((data) => {
-      
       imgContainer.innerHTML = `
       <img src=${data.avatar}>`;
       details.innerHTML = `
